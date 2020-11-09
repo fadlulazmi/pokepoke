@@ -1,0 +1,13 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,53 @@
+.detail {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+
+.detail > img {
+  height: 30%;
+  object-fit: contain;
+}
+
+.detail > p {
+  font-size: 150%;
+  font-weight: 700;
+  margin: 0;
+}
+
+.detail > div {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.detail > div > p {
+  word-break: break-word;
+  text-align: center;
+  line-height: 35px;
+  margin: 0;
+  padding: 5px;
+  border: lightgray 1px dashed;
+  width: 146px;
+  margin: 5px;
+  font-size: 120%;
+}
+
+.detail > div > p:nth-child(5) {
+  width: 317px;
+}
+
+.detail > div:last-child > button {
+  margin: 0 10px;
+  width: 150px;
+  height: 50px;
+}
+
+.detail > div:last-child > a > button {
+  margin: 0 10px;
+  width: 150px;
+  height: 50px;
+}
