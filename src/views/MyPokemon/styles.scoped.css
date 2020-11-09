@@ -1,3 +1,11 @@
+.favorite {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
 .favorite > p {
   color: pink;
 }
