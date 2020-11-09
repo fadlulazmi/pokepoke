@@ -15,12 +15,14 @@
   font-size: 150%;
   font-weight: 700;
   margin: 0;
+  color: white;
 }
 
 .detail > div {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
+  color: white;
   justify-content: center;
 }
 
@@ -31,23 +33,30 @@
   margin: 0;
   padding: 5px;
   border: lightgray 1px dashed;
+  border-radius: 15px;
   width: 146px;
   margin: 5px;
   font-size: 120%;
+  background-color: rgba(255, 255, 255, .2);
+}
+
+.detail > div > p > b {
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .detail > div > p:nth-child(5) {
   width: 317px;
+  background-color: rgba(255, 255, 255, .2);
 }
 
 .detail > div:last-child > button {
-  margin: 0 10px;
+  margin: 10px;
   width: 150px;
   height: 50px;
 }
 
 .detail > div:last-child > a > button {
-  margin: 0 10px;
+  margin: 10px;
   width: 150px;
   height: 50px;
 }

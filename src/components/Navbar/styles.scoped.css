@@ -1,11 +1,22 @@
 .navbar {
-  background-color: lightgreen;
+  background-color: whitesmoke;
   height: 60px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+}
+
+.navbar > a {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #272A21;
+  cursor: pointer;
 }
 
 .navbar > a > p {
+  background-color: whitesmoke;
   margin: 0;
 }

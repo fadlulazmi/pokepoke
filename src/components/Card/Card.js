@@ -6,7 +6,7 @@ export default function Card(props) {
   return (
     <div className="card">
       <p>{name}</p>
-      <p>Owned: {counter}</p>
+      <div className={counter === 0 ? 'zero' : 'active'}>Owned: <p>{counter}</p></div>
     </div>
   );
 }

@@ -1,3 +1,7 @@
+body {
+  background-color: #272A21;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Toaster__manager-top .Toaster__alert_close {
+  background-color: rgba(0,0,0,0);
+}
+.Toaster__alert_text {
+  background-color: white;
+}
+
+.Toaster__alert_close > span {
+  background-color: white;
 }

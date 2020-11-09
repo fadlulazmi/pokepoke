@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { Link } from 'react-router-dom'
-import { getDetail } from '../../store/action'
+import { getDetail, catchPokemon } from '../../store/action'
+import Button from '../../components/Button'
+import defaultImage from '../../assets/ic-default-image.svg'
 import './styles.scoped.css'
 
 
@@ -20,7 +21,7 @@ export default function Detail(props) {
   } = detailPokemon || {}
   useEffect(() => {
     dispatch(getDetail(id))
-  }, [])
+  }, [dispatch, id])
 
   const getParaghraphContent = (arr, key) => {
     let content = '';
@@ -37,12 +38,12 @@ export default function Detail(props) {
     if(content.length > 100){
       content = content.substr(0,100) + '...';
     }
-      return content
+    return content
   }
 
   return (
     <div className="detail">
-      <img alt="id" src={sprites && sprites.front_default}/>
+      <img alt="id" src={sprites ? sprites.front_default : defaultImage}/>
       <p>{name && name.toUpperCase()}</p>
       <div>
         <p>
@@ -62,10 +63,7 @@ export default function Detail(props) {
         </p>
       </div>
       <div>
-        <Link to="/">
-          <button>BACK</button>
-        </Link>
-        <button>CATCH</button>
+        <Button onClick={() => dispatch(catchPokemon(detailPokemon))} text="CATCH" />
       </div>
     </div>
   )
