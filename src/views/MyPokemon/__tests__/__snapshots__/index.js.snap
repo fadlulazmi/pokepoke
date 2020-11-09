@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/MyPokemon should be rendered correctly 1`] = `
+<div
+  className="favorite"
+>
+  <p>
+    Let's catch POKEMON !
+  </p>
+</div>
+`;

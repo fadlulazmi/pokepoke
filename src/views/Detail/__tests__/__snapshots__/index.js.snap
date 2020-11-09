@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Detail should be rendered correctly 1`] = `
+<div
+  className="detail"
+>
+  <img
+    alt="id"
+    src="ic-default-image.svg"
+  />
+  <p />
+  <div>
+    <p>
+      <b>
+        Base Experience
+      </b>
+       
+      <br />
+       
+    </p>
+    <p>
+      <b>
+        Weight
+      </b>
+       
+      <br />
+       
+    </p>
+    <p>
+      <b>
+        Height
+      </b>
+       
+      <br />
+       
+    </p>
+    <p>
+      <b>
+        Types
+      </b>
+       
+      <br />
+       
+    </p>
+    <p>
+      <b>
+        Moves
+      </b>
+       
+      <br />
+       
+    </p>
+  </div>
+  <div>
+    <Button
+      onClick={[Function]}
+      text="CATCH"
+    />
+  </div>
+</div>
+`;

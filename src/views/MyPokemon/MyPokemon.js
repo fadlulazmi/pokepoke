@@ -12,7 +12,7 @@ export default function MyPokemon() {
     dispatch(getFavorite())
   }, [dispatch])
   return (
-    <div className="container">
+    <div className="favorite">
       { 
         myPokemon.length > 0 
           ? myPokemon.map(el => (

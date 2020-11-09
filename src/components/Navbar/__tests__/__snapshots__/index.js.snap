@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Navbar should be rendered correctly 1`] = `
+<nav
+  className="navbar"
+>
+  <Link
+    to="/"
+  >
+    <p>
+       Home 
+    </p>
+  </Link>
+  <Link
+    to="/myPokemon"
+  >
+    <p>
+       My Pokemon 
+    </p>
+  </Link>
+</nav>
+`;

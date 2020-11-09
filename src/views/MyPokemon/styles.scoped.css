@@ -1,18 +1,18 @@
-.container > p {
+.favorite > p {
   color: pink;
 }
 
-.container > div {
+.favorite > div {
   display: flex;
   flex-direction: column;
 }
 
-.container > div > .card {
+.favorite > div > .card {
   margin-bottom: 0;
   border-radius: 10px 10px 0 0;
 }
 
-.container > div > .button {
+.favorite > div > .button {
   margin: 0 10px;
   border-radius: 0 0 10px 10px;
   height: 30px;

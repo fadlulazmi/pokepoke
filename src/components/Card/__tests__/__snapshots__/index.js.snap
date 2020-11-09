@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Card should be rendered correctly 1`] = `
+<div
+  className="card"
+>
+  <p />
+  <div
+    className="active"
+  >
+    Owned: 
+    <p />
+  </div>
+</div>
+`;

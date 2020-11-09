@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Home should be rendered correctly 1`] = `
+<section
+  className="root"
+>
+  <div
+    className="container"
+  />
+  <br />
+  <p>
+    You reached the end of page
+  </p>
+</section>
+`;

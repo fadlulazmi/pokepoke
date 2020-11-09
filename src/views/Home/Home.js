@@ -15,7 +15,7 @@ export default function Home() {
     dispatch(getList());
   }, [dispatch]);
   const getNewList = () => dispatch(getList(state.nextFetchedList));
-  console.log(state);
+  
   return (
     <section className="root">
       <div className="container">
