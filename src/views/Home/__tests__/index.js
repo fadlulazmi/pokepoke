@@ -3,7 +3,7 @@ import ShallowRenderer from 'react-test-renderer/shallow';
 import { useSelector } from 'react-redux';
 
 
-describe('src/components/Home', () => {
+describe('src/views/Home', () => {
   test('should be rendered correctly', () => {
     useSelector.mockImplementationOnce(fn => {
       fn()

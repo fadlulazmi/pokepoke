@@ -3,7 +3,7 @@ import ShallowRenderer from 'react-test-renderer/shallow';
 import { useSelector } from 'react-redux';
 
 
-describe('src/components/MyPokemon', () => {
+describe('src/views/MyPokemon', () => {
   test('should be rendered correctly', () => {
     useSelector.mockImplementationOnce(fn => {
       fn()

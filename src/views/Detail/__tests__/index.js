@@ -2,7 +2,7 @@ import Detail from '../Detail'
 import ShallowRenderer from 'react-test-renderer/shallow';
 import { useSelector } from 'react-redux';
 
-describe('src/components/Detail', () => {
+describe('src/views/Detail', () => {
   test('should be rendered correctly', () => {
     useSelector.mockImplementationOnce(fn => {
       fn()
